@@ -1,0 +1,26 @@
+{
+  "name": "worldtourapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Randall71/WorldTourApp.git"
+  },
+  "author": "Randall Luc Emmanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Randall71/WorldTourApp/issues"
+  },
+  "homepage": "https://github.com/Randall71/WorldTourApp#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
